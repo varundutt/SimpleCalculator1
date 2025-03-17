@@ -7,8 +7,8 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-#def power(a, b):
-#    return a**b
+def power(a, b):
+    return a**b
 
 def multiply(a, b):
     return a * b
@@ -24,4 +24,4 @@ if __name__ == "__main__":
     print("Subtraction of 10 and 5:", subtract(10, 5))
     print("Multiplication of 10 and 5:", multiply(10, 5))
     print("Division of 10 by 5:", divide(10, 5))
-#    print("Power 10 raised to 5:", power(10, 5))
+    print("Power 10 raised to 5:", power(10, 5))
